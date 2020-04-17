@@ -37,7 +37,8 @@ client = discord.ext.commands.Bot(command_prefix=Bot_Prefix)
                 aliases=['bggck', 'bglookup', 'bg']
                 )
 async def bgg_check(ctx, *, gamename):
-    main_response = Python.BGG.game_lookup(gamename)
+    search = Python.BGG.api_search(gamename)
+    main_response = Python.BGG.game_lookup(search)
     filepath = Python.BGG.image_lookup(gamename)
     embed = discord.Embed()
     if  "error" not in filepath:
