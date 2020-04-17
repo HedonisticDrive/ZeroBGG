@@ -126,6 +126,14 @@ def hot_games():
                 returned_string = returned_string + item.name + '\n'
         return returned_string
 
+def hot_games_presence():
+        hot_games_list = bgg.hot_items('boardgame')
+        games_list = []
+        for item in hot_games_list:
+                games_list.append(item.name)
+        random_game = random.choice(games_list)
+        return random_game
+
 def hot_companies():
         hot_companies_list = bgg.hot_items('boardgamecompany')
         returned_string = "The current hot board game companies are: \n"
