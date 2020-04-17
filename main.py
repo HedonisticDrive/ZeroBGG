@@ -274,7 +274,7 @@ async def list_servers():
         print("Current servers:")
         for guild in client.guilds:
             print(guild.name)
-        await client.change_presence(activity= discord.Game(name=Python.BGG.random_owned_game("matta174")))
+        await client.change_presence(activity= discord.Game(name=Python.BGG.random_owned_game("JediDragon")))
         await asyncio.sleep(600)
         
 
