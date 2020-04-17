@@ -59,7 +59,7 @@ def game_lookup(string):
             number_of_players + "\nCategories: " +
             categories_list + "\nComplexity Rank: " + weight +
             '/5' + "\nExpected game length: " +str(game.min_playing_time) + ' - ' + str(game.max_playing_time) +
-            " Minutes" +  "\n\nDescription: " + description) 
+            " Minutes") 
 
 def image_lookup(string):
     try:
