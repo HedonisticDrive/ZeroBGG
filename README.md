@@ -44,7 +44,7 @@ Or install the pip `requirements.txt`
 
 | Name        | Description           | Command  |
 | :-------------: |:-------------:| :-----:|
-| Board Game Check      | Returns the BoardGameGeek.com  information of a specified game. | !bg *game name* |
+| Board Game Check      | Returns the BoardGameGeek.com  information of a specified game. | !bgg *game name* |
 | Expansion Check| Returns any expansions a game has if any. | !exp *game name* |
 | Random Game     | Returns a random game title from a provided list of games separated by a comma.   |   !rbg *game name*, *game name* |
 | Random Owned Game | Returns a random game title from a user's owned list.  | !robg *username*|
