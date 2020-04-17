@@ -2,7 +2,7 @@
 
 This is the repository for a board game Discord bot
 
-[![Python 3.6.7](https://img.shields.io/badge/python-3.6.7-blue.svg)](https://www.python.org/downloads/release/python-360/)  ![GitHub repo size](https://img.shields.io/github/repo-size/HedonisticDrive/ZeroBGG.svg) ![GitHub issues](https://https://img.shields.io/github/issues-raw/HedonisticDrive/ZeroBGG.svg)
+[![Python 3.6.7](https://img.shields.io/badge/python-3.6.7-blue.svg)](https://www.python.org/downloads/release/python-360/)  ![GitHub repo size](https://img.shields.io/github/repo-size/HedonisticDrive/ZeroBGG.svg) ![GitHub issues](https://img.shields.io/github/issues-raw/HedonisticDrive/ZeroBGG.svg)
 [![CodeFactor](https://www.codefactor.io/repository/github/hedonisticdrive/zerobgg/badge)](https://www.codefactor.io/repository/github/hedonisticdrive/zerobgg)
 
 ZeroBGG is a bot based on [BoardGameBot](https://github.com/matta174/BoardGameBot) that can be used to quickly lookup information about board games as well as get how to play videos and much more.
