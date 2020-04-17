@@ -2,12 +2,12 @@
 
 This is the repository for a board game Discord bot
 
-[![star this repo](http://githubbadges.com/star.svg?user=matta174&repo=BoardGameBot&style=default)](https://github.com/matta174/BoardGameBot)   [![fork this repo](http://githubbadges.com/fork.svg?user=matta174&repo=BoardGameBot&style=default)](https://github.com/matta174/BoardGameBot/fork)  [![Python 3.6.7](https://img.shields.io/badge/python-3.6.7-blue.svg)](https://www.python.org/downloads/release/python-360/)  ![GitHub repo size](https://img.shields.io/github/repo-size/matta174/boardgamebot.svg)    ![Discord](https://img.shields.io/discord/288694246721191947.svg)   ![GitHub issues](https://img.shields.io/github/issues-raw/matta174/boardgamebot.svg)
-[![CodeFactor](https://www.codefactor.io/repository/github/matta174/boardgamebot/badge)](https://www.codefactor.io/repository/github/matta174/boardgamebot)
+[![Python 3.6.7](https://img.shields.io/badge/python-3.6.7-blue.svg)](https://www.python.org/downloads/release/python-360/)  ![GitHub repo size](https://img.shields.io/github/repo-size/HedonisticDrive/ZeroBGG.svg) ![GitHub issues](https://https://img.shields.io/github/issues-raw/HedonisticDrive/ZeroBGG.svg)
+[![CodeFactor](https://www.codefactor.io/repository/github/hedonisticdrive/zerobgg/badge)](https://www.codefactor.io/repository/github/hedonisticdrive/zerobgg)
 
-BoardGameBot is a bot that can be used to quickly lookup information about board games as well as get how to play videos and much more.
+ZeroBGG is a bot based on [BoardGameBot](https://github.com/matta174/BoardGameBot) that can be used to quickly lookup information about board games as well as get how to play videos and much more.
 
-## Prerequisites
+## Prerequisites>
 
 ### What items to install
 
@@ -17,6 +17,7 @@ boardgamegeek - [link](https://github.com/lcosmin/boardgamegeek)
 
 Google APIs Client Library for Python - [link](https://developers.google.com/api-client-library/python/start/installation)
 
+
 #### How to install them
 
 >pip install -U discord.py
@@ -24,6 +25,8 @@ Google APIs Client Library for Python - [link](https://developers.google.com/api
 >pip install google-api-python-client
 >pip install python-env
 >pip install psycopg2
+
+Or install the pip `requirements.txt`
 
 ### Using the bot
 
@@ -55,9 +58,3 @@ Google APIs Client Library for Python - [link](https://developers.google.com/api
 | Lookup BGG User| Lookup a board game geek user's game collection  | !go *username* |
 | Get Hot Games | Returns BoardGameGeeks current hot games | !ghg |
 | Get Hot Companies | Returns BoardGameGeeks current hot board game companies | !ghc |
-
-## Support the project on Beerpay
-
-Hey! Buy us a  :beers:!
-
-[![Beerpay](https://beerpay.io/matta174/BoardGameBot/badge.svg?style=beer-square)](https://beerpay.io/matta174/BoardGameBot)  [![Beerpay](https://beerpay.io/matta174/BoardGameBot/make-wish.svg?style=flat-square)](https://beerpay.io/matta174/BoardGameBot?focus=wish)
