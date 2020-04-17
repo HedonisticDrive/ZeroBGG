@@ -7,3 +7,4 @@ youtube_dl==2019.3.18
 PrettyTable==0.7.2
 Py-StackExchange==2.2.7
 sentry-sdk==0.7.10
+untangle==1.1.1
