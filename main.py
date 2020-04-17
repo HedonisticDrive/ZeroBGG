@@ -1,4 +1,4 @@
-# Work with Python 3.6
+# Work with Python 3.8.2
 import asyncio
 import datetime
 import logging
