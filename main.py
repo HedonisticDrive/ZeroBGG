@@ -51,8 +51,7 @@ async def bgg_check(ctx, *, gamename):
 @bgg_check.error
 async def bgg_check_error(ctx, error):
     if isinstance(error, BaseException):
-        await ctx.send('Unexpected error, try again. If the error persists,'
-                       ' get help here https://discord.gg/9pS2JdC')
+        await ctx.send('Unexpected error, try again. If the error persists,')
         logger.error(error, exc_info=True)
 
 
@@ -68,8 +67,7 @@ async def expansion_check(ctx, *, game):
 @expansion_check.error
 async def expansion_check_error(ctx, error):
     if isinstance(error, BaseException):
-        await ctx.send('Unexpected error, try again. If the error persists,'
-                       ' get help here https://discord.gg/9pS2JdC')
+        await ctx.send('Unexpected error, try again. If the error persists,')
         logger.error(error, exc_info=True)    
 
 
@@ -85,8 +83,7 @@ async def random_game(ctx, *, arg):
 @random_game.error
 async def random_game_error(ctx, error):
     if isinstance(error, BaseException):
-        await ctx.send('Unexpected error, try again. If the error persists,'
-                       ' get help here https://discord.gg/9pS2JdC')
+        await ctx.send('Unexpected error, try again. If the error persists,')
         logger.error(error, exc_info=True)    
 
 
@@ -104,8 +101,7 @@ async def random_users_game(ctx, name):
 @random_users_game.error
 async def random_users_game_error(ctx, error):
     if isinstance(error, BaseException):
-        await ctx.send('Unexpected error, try again. If the error persists,'
-                       ' get help here https://discord.gg/9pS2JdC')
+        await ctx.send('Unexpected error, try again. If the error persists,')
         logger.error(error, exc_info=True)    
 
 @client.command(name='What_Game_Can_We_Play',
@@ -123,8 +119,7 @@ async def what_game_can_we_play(ctx, *, arg):
 @what_game_can_we_play.error
 async def what_game_can_we_play_error(ctx, error):
     if isinstance(error, BaseException):
-        await ctx.send('Unexpected error, try again. If the error persists,'
-                       ' get help here https://discord.gg/9pS2JdC')
+        await ctx.send('Unexpected error, try again. If the error persists,')
         logger.error(error, exc_info=True)        
 
 
@@ -141,8 +136,7 @@ async def youtube_how_to(ctx, *, game_name):
 @youtube_how_to.error
 async def youtube_how_to_error(ctx, error):
     if isinstance(error, BaseException):
-        await ctx.send('Unexpected error, try again. If the error persists,'
-                       ' get help here https://discord.gg/9pS2JdC')
+        await ctx.send('Unexpected error, try again. If the error persists,')
         logger.error(error, exc_info=True)        
 
 
@@ -165,8 +159,7 @@ async def get_hot_games(ctx):
 @get_hot_games.error
 async def get_hot_games_error(ctx, error):
     if isinstance(error, BaseException):
-        await ctx.send('Unexpected error, try again. If the error persists,'
-                       ' get help here https://discord.gg/9pS2JdC')
+        await ctx.send('Unexpected error, try again. If the error persists,')
         logger.error(error, exc_info=True)      
 
 
@@ -182,8 +175,7 @@ async def get_hot_companies(ctx):
 @get_hot_companies.error
 async def get_hot_companies_error(ctx, error):
     if isinstance(error, BaseException):
-        await ctx.send('Unexpected error, try again. If the error persists,'
-                       ' get help here https://discord.gg/9pS2JdC')
+        await ctx.send('Unexpected error, try again. If the error persists,')
         logger.error(error, exc_info=True)      
 
 
@@ -203,8 +195,7 @@ async def ask(ctx, *, arg):
 @ask.error
 async def ask_error(ctx, error):
     if isinstance(error, BaseException):
-        await ctx.send('Unexpected error, try again. If the error persists,'
-                       ' get help here https://discord.gg/9pS2JdC')
+        await ctx.send('Unexpected error, try again. If the error persists,')
         logger.error(error, exc_info=True)      
 
 
@@ -221,8 +212,7 @@ async def lookup_bgg_user(ctx, name):
 @lookup_bgg_user.error
 async def lookup_bgg_user_error(ctx, error):
     if isinstance(error, BaseException):
-        await ctx.send('Unexpected error, try again. If the error persists,'
-                       ' get help here https://discord.gg/9pS2JdC')
+        await ctx.send('Unexpected error, try again. If the error persists,')
         logger.error(error, exc_info=True)              
 
 @client.command(name="Dice_Roll",
@@ -237,8 +227,7 @@ async def dice_roll(ctx, sides):
 @dice_roll.error
 async def dice_roll_error(ctx, error):
     if isinstance(error, BaseException):
-        await ctx.send('Unexpected error, try again. If the error persists,'
-                       ' get help here https://discord.gg/9pS2JdC')
+        await ctx.send('Unexpected error, try again. If the error persists,')
         logger.error(error, exc_info=True)                
 
 
@@ -255,8 +244,7 @@ async def game_ambiance_playlist(ctx, *, topic):
 @game_ambiance_playlist.error
 async def game_ambiance_playlist_error(ctx, error):
     if isinstance(error, BaseException):
-        await ctx.send('Unexpected error, try again. If the error persists,'
-                       ' get help here https://discord.gg/9pS2JdC')
+        await ctx.send('Unexpected error, try again. If the error persists,')
         logger.error(error, exc_info=True)                            
 
 
@@ -272,8 +260,7 @@ async def next_video(ctx):
 @next_video.error
 async def next_video_error(ctx, error):
     if isinstance(error, BaseException):
-        await ctx.send('Unexpected error, try again. If the error persists,'
-                       ' get help here https://discord.gg/9pS2JdC')
+        await ctx.send('Unexpected error, try again. If the error persists,')
         logger.error(error, exc_info=True)      
 
 
