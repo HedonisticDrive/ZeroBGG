@@ -46,7 +46,7 @@ async def bgg_check(ctx, *, gamename):
     if filepath == "error":
         await ctx.send(main_response)
         return
-    await ctx.send(main_response,embed=embed)
+    await ctx.send(main_response)
 
 @bgg_check.error
 async def bgg_check_error(ctx, error):
