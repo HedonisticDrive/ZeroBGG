@@ -1,4 +1,4 @@
-# BoardGameBot
+# ZeroBGG
 
 This is the repository for a board game Discord bot
 
