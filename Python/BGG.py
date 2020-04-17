@@ -1,12 +1,36 @@
 import boardgamegeek
 import random
 import stackexchange 
-
+import untangle
+from urllib.parse import quote
 
 bgg = boardgamegeek.BGGClient()
 
 so = stackexchange.Site(stackexchange.BoardampCardGames)
 
+def api_search(string):
+    game = string
+    try:
+        obj = untangle.parse('https://api.geekdo.com/xmlapi2/search?query=' + quote(game) + '&exact=1&type=boardgame')
+        bgame = (str(obj.items.item.name['value']))
+    except:
+        try:
+            obj = untangle.parse('https://api.geekdo.com/xmlapi2/search?query=' + quote(game) + '&exact=1&type=boardgame')
+            bgame = (str(obj.items.item[0].name['value']))
+        except:
+                try:
+                    obj = untangle.parse('https://api.geekdo.com/xmlapi2/search?query=' + quote(game))
+                    bgame = (str(obj.items.item.name['value']))
+                except:
+                    pass
+    try:
+        bgame = (str(obj.items.item[0].name['value']))
+    except:
+        pass
+    try:
+        return bgame
+    except:
+        print('Something went wrong')
 
 def game_lookup(string):
     try:
